@@ -4,5 +4,7 @@ for i in range(1,101):
         print('Fizz')
     if (i%5) == 0:
         print("buzz")
+    if i % 15 == 0:
+        print('fizzbuzz')
     else:
         print(i)
